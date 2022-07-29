@@ -9,7 +9,7 @@
   font-family: 'Montserrat';
 }
 .header {
-  max-width: 1922px;
+  max-width: 1920px;
   height: 100px;
   background-color: #fff;
   box-shadow: 0px 4px 20px rgba(1, 36, 88, 0.2);
@@ -34,4 +34,32 @@
   font-size: 16px;
   line-height: 20px;
   color: #0079c2;
+}
+
+.main {
+  background-color: grey;
+  height: 100px;
+  width: 1920px;
+}
+
+.footer {
+  height: 304px;
+  max-width: 1920px;
+  background-color: #fff;
+}
+
+.footer-content {
+  width: 1376px;
+}
+
+.footer-contacts {
+  height: 160px;
+}
+
+.footer-link,
+.footer-contacts {
+  color: #6e828c;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
 }
