@@ -37,15 +37,28 @@
 }
 
 .main {
-  background-color: grey;
+  background-color: #f0f5fa;
   height: 100px;
   width: 1920px;
+}
+
+.page-breadcrumbs {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.page-title {
+  font-weight: 300;
+  font-size: 56px;
+  color: #fff;
 }
 
 .footer {
   height: 304px;
   max-width: 1920px;
   background-color: #fff;
+  border-radius: 10% 0 10% 0;
 }
 
 .footer-content {
