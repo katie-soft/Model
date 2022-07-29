@@ -2,4 +2,30 @@
 // $secondary: #e8d21d;
 // $border-radius: 1px;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Montserrat';
+}
+.header {
+  max-width: 1922px;
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px rgba(1, 36, 88, 0.2);
+}
+
+.header-content {
+  width: 1376px;
+}
+
+.nav {
+  gap: 12px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0079c2;
+}
